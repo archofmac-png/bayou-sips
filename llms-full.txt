@@ -1,0 +1,32 @@
+# Bayou Sips
+> Bayou Sips rents self-serve frozen drink machines for celebrations and events.
+
+## Business Summary
+Bayou Sips offers frozen drink machine rentals for event hosts who want a self-serve drink station. The current website lets visitors compare three rentals, review flavor choices, and build a Facebook booking request.
+
+## Rental Details
+The Mini costs $175 and includes one self-serve cart, one single spout frozen drink machine, one flavor of the customer's choice, and 50 9-ounce plastic cups.
+
+The Original costs $250 and includes one self-serve cart, one double spout frozen drink machine, two flavors of the customer's choice, 100 9-ounce plastic cups, and a white tent for all-day outdoor use.
+
+The Deluxe costs $400 and includes one self-serve cart, one double spout frozen drink machine, four flavors of the customer's choice, 200 9-ounce plastic cups, and a white tent for all-day outdoor use.
+
+## Flavor Menu
+Fruity Favorites are Banana, Blue Raspberry, Cherry Bomb, Green Apple, Mango, Orange, Peach, Strawberry, Strawberry Banana, and Watermelon.
+
+Tropical Escapes are Blue Hawaiian, Coombay Smash, Mai Tai, Pina Colada, Rum Runner, and Tropical Knockout.
+
+Cocktail Classics are Feeling No Pain, Frose, Hurricane, Liquid Mary, Margarita, and Sangria.
+
+Summer Refreshers include Summertime Lemonade.
+
+Popular combos are Strawberry + Pina Colada, Mango + Margarita, Peach + Hurricane, and Blue Raspberry + Watermelon.
+
+## Booking Flow
+The booking form asks for a rental option, name, event date, event type, guest count, flavor ideas, and notes. It copies a formatted request that can be pasted into a Facebook message to Bayou Sips.
+
+## Important Unknowns
+The flyer does not list a phone number, email address, business address, specific service area, delivery fees, deposit terms, cancellation terms, weather policy, or booking minimums. Those details should be confirmed through the Facebook page before an event is reserved.
+
+## Contact
+Facebook page: https://www.facebook.com/profile.php?id=61572368766729

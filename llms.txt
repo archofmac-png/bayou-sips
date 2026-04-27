@@ -1,0 +1,47 @@
+# Bayou Sips
+> Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, corporate events, and backyard cookouts. Three flat-rate packages from $175 to $400 with delivery and setup included. Sip. Chill. Enjoy.
+
+## Core Page
+- [Bayou Sips](/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and build a Facebook booking request.
+
+## Rental Packages
+- The Mini ($175): Includes 1 self-serve cart, 1 single-spout frozen drink machine, 1 flavor of your choice, and 50 (9oz) plastic cups. Best for intimate parties and a single signature flavor. Indoor or covered outdoor use.
+- The Original ($250): Includes 1 self-serve cart, 1 double-spout frozen drink machine, 2 flavors of your choice, 100 (9oz) plastic cups, and a white tent for all-day outdoor use. Most popular package for ~100 guests.
+- The Deluxe ($400): Includes 1 self-serve cart, 1 double-spout frozen drink machine, 4 flavors of your choice, 200 (9oz) plastic cups, and a white tent for all-day outdoor use. Best for weddings and large events of ~200 guests.
+
+## Flavor Menu (23 flavors)
+- Fruity Favorites: Banana, Blue Raspberry, Cherry Bomb, Green Apple, Mango, Orange, Peach, Strawberry, Strawberry Banana, Watermelon.
+- Tropical Escapes: Blue Hawaiian, Goombay Smash, Mai Tai, Pina Colada, Rum Runner, Tropical Knockout.
+- Cocktail Classics: Feeling No Pain, Frose, Hurricane, Liquid Mary, Margarita, Sangria.
+- Summer Refreshers: Summertime Lemonade.
+
+## Crowd-Favorite Flavor Combos
+- Strawberry + Pina Colada.
+- Mango + Margarita.
+- Peach + Hurricane.
+- Blue Raspberry + Watermelon.
+
+## Events We Cater
+- Weddings and receptions.
+- Birthday parties (kids and adults).
+- Baby showers, bridal showers, and engagement parties.
+- Graduation parties.
+- Corporate and holiday parties.
+- Backyard cookouts and family gatherings.
+
+## How Booking Works
+1. Pick a package: The Mini, The Original, or The Deluxe.
+2. Choose your flavors from the 23-item flavor menu.
+3. Send a booking request through the form on the Bayou Sips website. The form copies your event details into a Facebook message.
+4. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
+
+## Frequently Asked Questions
+- Pricing: Three flat rentals at $175 (Mini), $250 (Original), and $400 (Deluxe).
+- Alcohol: All flavors are alcohol-free by default. You may add your own spirits to create signature cocktails.
+- Flavor count: 1 flavor with The Mini, 2 with The Original, 4 with The Deluxe.
+- Tent: Included with The Original and The Deluxe. Not included with The Mini.
+- Booking: Choose package, fill in event details on the booking form, copy the request to a Facebook message.
+- Service area, deposit, cancellation, and delivery details: confirmed during the booking conversation on Facebook.
+
+## Contact
+- Facebook: https://www.facebook.com/profile.php?id=61572368766729

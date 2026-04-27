@@ -1,0 +1,14 @@
+# Internal — not for the public deploy
+next steps/
+.claude/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Build artifacts
+/node_modules/
+/dist/
