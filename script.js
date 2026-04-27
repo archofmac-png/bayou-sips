@@ -91,6 +91,7 @@ function buildRequest() {
     ...selected.includes.map((item) => `- ${item}`),
     "",
     `Name: ${valueFor("#customerName")}`,
+    `Phone: ${valueFor("#customerPhone")}`,
     `Event date: ${valueFor("#eventDate")}`,
     `Event type: ${valueFor("#eventType")}`,
     `Guest count: ${valueFor("#guestCount")}`,

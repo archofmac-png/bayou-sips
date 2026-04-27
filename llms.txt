@@ -44,4 +44,5 @@
 - Service area, deposit, cancellation, and delivery details: confirmed during the booking conversation on Facebook.
 
 ## Contact
+- Email: bayou_sips@yahoo.com
 - Facebook: https://www.facebook.com/profile.php?id=61572368766729
