@@ -144,6 +144,26 @@ button, input, select, textarea { font: inherit; }
     0 4px 12px rgba(0, 0, 0, 0.18);
 }
 
+.brand-mark-img {
+  display: block;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  object-fit: cover;
+  background: var(--paper-50);
+  border: 2px solid var(--gold-500);
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.6),
+    0 4px 14px rgba(0, 0, 0, 0.22);
+}
+
+.footer-logo {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-width: 3px;
+}
+
 .brand-text strong {
   display: block;
   font-family: var(--display);
@@ -547,6 +567,53 @@ p { margin: 0 0 1rem; }
   font-weight: 700;
 }
 
+/* Hero stack — package poster with overlapping polaroid */
+.hero-stack {
+  position: relative;
+  width: min(100%, 32rem);
+  padding-bottom: 3rem;
+}
+
+.hero-stack .package-poster {
+  width: 100%;
+  transform: rotate(1.6deg);
+  margin: 0;
+}
+
+.polaroid {
+  margin: 0;
+  padding: 0.7rem 0.7rem 1rem;
+  background: var(--paper-50);
+  border: 1px solid rgba(45, 74, 53, 0.18);
+  box-shadow:
+    0 22px 48px rgba(19, 47, 35, 0.28),
+    0 4px 10px rgba(19, 47, 35, 0.18);
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.polaroid figcaption {
+  margin-top: 0.55rem;
+  text-align: center;
+  color: var(--ink-soft);
+  font-family: var(--script);
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-polaroid {
+  position: absolute;
+  bottom: 0;
+  left: -1.5rem;
+  width: 14rem;
+  transform: rotate(-5deg);
+  z-index: 2;
+}
+
 /* ---------- Story band ---------- */
 .story-band {
   position: relative;
@@ -573,25 +640,53 @@ p { margin: 0 0 1rem; }
 
 .story-band-inner {
   position: relative;
-  max-width: 56rem;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr);
+  gap: 4rem;
+  align-items: center;
+  max-width: 78rem;
   margin: 0 auto;
+}
+
+.story-photo {
+  margin: 0;
+  padding: 0.75rem 0.75rem 1.1rem;
+  background: var(--paper-50);
+  border: 1px solid rgba(201, 165, 92, 0.5);
+  box-shadow:
+    0 28px 60px rgba(0, 0, 0, 0.32),
+    0 6px 14px rgba(0, 0, 0, 0.2);
+  transform: rotate(-1.6deg);
+}
+
+.story-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+.story-photo figcaption {
+  margin-top: 0.7rem;
   text-align: center;
+  color: var(--ink-soft);
+  font-family: var(--script);
+  font-size: 1.5rem;
+  line-height: 1.1;
 }
 
 .story-band h2 { color: var(--paper-50); }
 
 .story-lede {
-  margin: 0 auto 2rem;
-  max-width: 48rem;
+  margin: 0 0 1.6rem;
   color: rgba(255, 253, 246, 0.88);
-  font-size: 1.2rem;
+  font-size: 1.18rem;
   line-height: 1.7;
 }
 
 .story-pills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 0.7rem;
   list-style: none;
   margin: 0;
@@ -1493,6 +1588,12 @@ p { margin: 0 0 1rem; }
 
   .hero-showcase { justify-self: center; }
 
+  .story-band-inner { grid-template-columns: 1fr; gap: 2.5rem; text-align: center; }
+
+  .story-photo { max-width: 32rem; margin: 0 auto; }
+
+  .story-pills { justify-content: center; }
+
   .flavor-section { grid-template-columns: 1fr; gap: 2.5rem; }
 
   .flavor-poster-wrap { position: static; }
@@ -1542,6 +1643,10 @@ p { margin: 0 0 1rem; }
   .section { padding: 4.5rem 1.25rem; }
 
   .booking-section { margin: 2.5rem 1rem; border-radius: 16px; }
+
+  .hero-stack { padding-bottom: 2rem; }
+
+  .hero-polaroid { width: 10rem; left: -0.5rem; bottom: -0.5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
