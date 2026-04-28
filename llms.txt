@@ -2,7 +2,7 @@
 > Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, corporate events, and backyard cookouts. Three flat-rate packages from $175 to $400 with delivery and setup included. Sip. Chill. Enjoy.
 
 ## Core Page
-- [Bayou Sips](/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and build a Facebook booking request.
+- [Bayou Sips](/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and book your event date with payment through the booking calendar.
 
 ## Rental Packages
 - The Mini ($175): Includes 1 self-serve cart, 1 single-spout frozen drink machine, 1 flavor of your choice, and 50 (9oz) plastic cups. Best for intimate parties and a single signature flavor. Indoor or covered outdoor use.
@@ -32,7 +32,7 @@
 ## How Booking Works
 1. Pick a package: The Mini, The Original, or The Deluxe.
 2. Choose your flavors from the 23-item flavor menu.
-3. Send a booking request through the form on the Bayou Sips website. The form copies your event details into a Facebook message.
+3. Click Book & Pay on the Bayou Sips website. The booking calendar opens, you pick an available date, share your event details, and pay the full rental amount upfront. Confirmation arrives by email immediately.
 4. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
 
 ## Frequently Asked Questions
@@ -40,8 +40,8 @@
 - Alcohol: All flavors are alcohol-free by default. You may add your own spirits to create signature cocktails.
 - Flavor count: 1 flavor with The Mini, 2 with The Original, 4 with The Deluxe.
 - Tent: Included with The Original and The Deluxe. Not included with The Mini.
-- Booking: Choose package, fill in event details on the booking form, copy the request to a Facebook message.
-- Service area, deposit, cancellation, and delivery details: confirmed during the booking conversation on Facebook.
+- Booking: Choose a package, click Book & Pay, pick your date on the calendar, share event details, and pay the full rental upfront to confirm.
+- Service area, cancellation, weather backup, and delivery details: confirmed by email after booking.
 
 ## Contact
 - Email: bayou_sips@yahoo.com

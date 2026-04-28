@@ -1277,6 +1277,55 @@ p { margin: 0 0 1rem; }
   border-radius: 14px;
 }
 
+.booking-pay {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.8rem;
+  background: rgba(255, 253, 246, 0.04);
+  border: 1px solid rgba(201, 165, 92, 0.3);
+  border-radius: 14px;
+}
+
+.booking-cta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.1rem 1.4rem;
+  text-align: left;
+}
+
+.booking-cta-name {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.05em;
+}
+
+.booking-cta-price {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.booking-secondary {
+  margin-top: 1.4rem;
+  font-size: 0.95rem;
+  color: rgba(255, 253, 246, 0.78);
+}
+
+.booking-fb-link {
+  color: var(--gold-300);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.booking-fb-link:hover { color: var(--paper-50); }
+
 .form-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

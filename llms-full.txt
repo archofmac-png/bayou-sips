@@ -2,7 +2,7 @@
 > Bayou Sips rents self-serve frozen drink machines for celebrations and events.
 
 ## Business Summary
-Bayou Sips offers frozen drink machine rentals for event hosts who want a self-serve drink station. The current website lets visitors compare three rentals, review flavor choices, and build a Facebook booking request.
+Bayou Sips offers frozen drink machine rentals for event hosts who want a self-serve drink station. The website lets visitors compare three rentals, review flavor choices, and book an event date directly through the booking calendar with full payment upfront.
 
 ## Rental Details
 The Mini costs $175 and includes one self-serve cart, one single spout frozen drink machine, one flavor of the customer's choice, and 50 9-ounce plastic cups.
@@ -23,10 +23,10 @@ Summer Refreshers include Summertime Lemonade.
 Popular combos are Strawberry + Pina Colada, Mango + Margarita, Peach + Hurricane, and Blue Raspberry + Watermelon.
 
 ## Booking Flow
-The booking form asks for a rental option, name, event date, event type, guest count, flavor ideas, and notes. It copies a formatted request that can be pasted into a Facebook message to Bayou Sips.
+The website has Book & Pay buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date, share their phone number, event address, event type, guest count, flavor choices, and any notes, then pay the full rental amount upfront through Stripe to confirm. A confirmation email is sent automatically. There are no deposits.
 
 ## Important Unknowns
-The flyer does not list a phone number, email address, business address, specific service area, delivery fees, deposit terms, cancellation terms, weather policy, or booking minimums. Those details should be confirmed through the Facebook page before an event is reserved.
+The website does not list a phone number, business address, specific service area, delivery fees, cancellation terms, weather policy, or booking minimums. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
 
 ## Contact
 Facebook page: https://www.facebook.com/profile.php?id=61572368766729
