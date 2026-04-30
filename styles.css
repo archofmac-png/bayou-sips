@@ -755,13 +755,24 @@ p { margin: 0 0 1rem; }
   border-color: rgba(201, 165, 92, 0.5);
 }
 
+.package-card.mini {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(107, 122, 63, 0.16), transparent 55%),
+    var(--paper-50);
+}
+
+.package-card.deluxe {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(169, 59, 48, 0.14), transparent 55%),
+    var(--paper-50);
+}
+
 .package-card.featured {
   background:
     radial-gradient(circle at 50% 0%, rgba(201, 165, 92, 0.22), transparent 55%),
     var(--paper-50);
   border-color: rgba(201, 165, 92, 0.55);
-  box-shadow: 0 24px 60px rgba(31, 58, 38, 0.18);
-  transform: translateY(-6px);
+  box-shadow: 0 28px 64px rgba(31, 58, 38, 0.22);
 }
 
 .package-card.featured::after {
@@ -1290,7 +1301,7 @@ p { margin: 0 0 1rem; }
 .booking-cta {
   display: grid;
   grid-template-columns: 1fr auto;
-  align-items: baseline;
+  align-items: center;
   gap: 1rem;
   width: 100%;
   padding: 1.1rem 1.4rem;
@@ -1309,6 +1320,40 @@ p { margin: 0 0 1rem; }
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.booking-cta.cta-mini {
+  color: var(--paper-50);
+  background: linear-gradient(135deg, var(--ribbon-mini), var(--ribbon-mini-shade));
+  border-color: var(--ribbon-mini-shade);
+  box-shadow: 0 12px 28px rgba(79, 91, 45, 0.34);
+}
+.booking-cta.cta-mini:hover {
+  background: linear-gradient(135deg, var(--ribbon-mini-shade), var(--ribbon-mini));
+  box-shadow: 0 16px 36px rgba(79, 91, 45, 0.42);
+}
+
+.booking-cta.cta-original {
+  color: var(--green-deep);
+  background: linear-gradient(135deg, var(--gold-300), var(--gold-500));
+  border-color: var(--gold-600);
+  box-shadow: 0 12px 28px rgba(184, 137, 58, 0.36);
+}
+.booking-cta.cta-original:hover {
+  background: linear-gradient(135deg, var(--gold-400), var(--gold-600));
+  box-shadow: 0 16px 36px rgba(184, 137, 58, 0.46);
+}
+
+.booking-cta.cta-deluxe {
+  color: var(--paper-50);
+  background: linear-gradient(135deg, var(--ribbon-deluxe), var(--ribbon-deluxe-shade));
+  border-color: var(--ribbon-deluxe-shade);
+  box-shadow: 0 12px 28px rgba(125, 42, 34, 0.36);
+}
+.booking-cta.cta-deluxe:hover {
+  background: linear-gradient(135deg, var(--ribbon-deluxe-shade), var(--ribbon-deluxe));
+  box-shadow: 0 16px 36px rgba(125, 42, 34, 0.46);
 }
 
 .booking-secondary {
