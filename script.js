@@ -11,6 +11,21 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   });
 });
 
+// Mobile fallback for Cal.com embed: the embed modal has a known layout
+// bug on narrow viewports where the sticky "Back / Pay to book" bar floats
+// mid-form and covers the phone field. Below 768px we strip the embed
+// attributes so clicks open the Cal.com hosted page in a new tab, which
+// lays out correctly at any width. Desktop keeps the in-page modal.
+if (window.matchMedia("(max-width: 767px)").matches) {
+  document.querySelectorAll("a[data-cal-link]").forEach((a) => {
+    a.removeAttribute("data-cal-namespace");
+    a.removeAttribute("data-cal-link");
+    a.removeAttribute("data-cal-config");
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener");
+  });
+}
+
 (function (C, A, L) {
   let p = function (a, ar) { a.q.push(ar); };
   let d = C.document;
