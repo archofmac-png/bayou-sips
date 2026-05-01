@@ -1,7 +1,13 @@
 # Bayou Sips
-> Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, corporate events, and backyard cookouts. Three flat-rate packages from $175 to $400 with delivery and setup included. Sip. Chill. Enjoy.
+> Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, corporate events, and backyard cookouts. Three flat-rate packages from $175 to $400 with delivery and setup included. Based in Ponchatoula, Louisiana. Sip. Chill. Enjoy.
 
 The official website is https://bayousips.com.
+
+## Location and Hours
+- Based in Ponchatoula, Louisiana (Tangipahoa Parish).
+- The online booking calendar accepts reservations 24/7 at https://cal.com/bayou.sips1.
+- Phone callbacks and booking-response hours are Monday through Friday, 10:00 AM to 8:00 PM Central Time.
+- Service area is confirmed by email or Facebook message before booking.
 
 ## Core Page
 - [Bayou Sips](https://bayousips.com/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and book your event date with payment through the booking calendar.

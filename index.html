@@ -76,7 +76,7 @@
             "name": "Bayou Sips",
             "url": "https://bayousips.com/",
             "slogan": "Sip. Chill. Enjoy.",
-            "description": "Bayou Sips provides self-serve frozen drink machine rental packages for events, including carts, plastic cups, flavor choices, and white tent options on selected packages.",
+            "description": "Bayou Sips provides self-serve frozen drink machine rental packages for events, including carts, plastic cups, flavor choices, and white tent options on selected packages. Based in Ponchatoula, Louisiana.",
             "image": [
               "https://bayousips.com/assets/logo.jpg",
               "https://bayousips.com/assets/drinks1.jpg",
@@ -87,6 +87,27 @@
             "priceRange": "$175-$400",
             "email": "bayou.sips1@gmail.com",
             "telephone": "+1-225-268-6647",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Ponchatoula",
+              "addressRegion": "LA",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 30.4380,
+              "longitude": -90.4412
+            },
+            "hasMap": "https://www.google.com/maps/place/Ponchatoula,+LA/",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "10:00",
+                "closes": "20:00",
+                "description": "Booking response and phone callback hours (Central Time). The online booking calendar at cal.com accepts reservations 24/7."
+              }
+            ],
             "founder": [
               { "@id": "https://bayousips.com/#paula-meyers" },
               { "@id": "https://bayousips.com/#baileigh-vinson" }
@@ -106,7 +127,13 @@
                 "name": "Paula Meyers",
                 "telephone": "+1-225-268-6647",
                 "areaServed": "US",
-                "availableLanguage": "English"
+                "availableLanguage": "English",
+                "hoursAvailable": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "10:00",
+                  "closes": "20:00"
+                }
               },
               {
                 "@type": "ContactPoint",
@@ -114,7 +141,13 @@
                 "name": "Baileigh Vinson",
                 "telephone": "+1-228-334-9854",
                 "areaServed": "US",
-                "availableLanguage": "English"
+                "availableLanguage": "English",
+                "hoursAvailable": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "10:00",
+                  "closes": "20:00"
+                }
               }
             ],
             "sameAs": [
@@ -890,6 +923,7 @@
           <img class="brand-mark brand-mark-img footer-logo" src="assets/logo.jpg" alt="Bayou Sips alligator and frozen drink logo" width="72" height="72">
           <strong>Bayou Sips</strong>
           <p>Self-serve frozen drink machine rentals for hosts who want the drink station handled.</p>
+          <p class="footer-origin">Based in Ponchatoula, Louisiana</p>
           <p class="footer-script">Sip. Chill. Enjoy.</p>
         </div>
         <div class="footer-col">
@@ -905,6 +939,7 @@
         </div>
         <div class="footer-col">
           <p class="footer-heading">Get In Touch</p>
+          <p class="footer-hours">Phone callbacks Mon&ndash;Fri, 10am&ndash;8pm CT</p>
           <ul class="footer-contacts">
             <li class="footer-owner">
               <span class="footer-owner-name">Paula Meyers</span>
