@@ -30,7 +30,7 @@
             "@id": "#bayou-sips-organization",
             "name": "Bayou Sips",
             "slogan": "Sip. Chill. Enjoy.",
-            "url": ".",
+            "url": "https://archofmac-png.github.io/bayou-sips/",
             "logo": "assets/logo.jpg",
             "image": [
               "assets/logo.jpg",
@@ -48,6 +48,7 @@
             "@type": "LocalBusiness",
             "@id": "#bayou-sips-local-business",
             "name": "Bayou Sips",
+            "url": "https://archofmac-png.github.io/bayou-sips/",
             "description": "Bayou Sips provides self-serve frozen drink machine rental packages for events, including carts, plastic cups, flavor choices, and white tent options on selected packages.",
             "image": [
               "assets/logo.jpg",
@@ -61,6 +62,56 @@
             "sameAs": [
               "https://www.facebook.com/profile.php?id=61572368766729"
             ],
+            "potentialAction": [
+              {
+                "@type": "ReserveAction",
+                "name": "Book The Mini frozen drink machine rental",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-mini",
+                  "actionPlatform": [
+                    "http://schema.org/DesktopWebPlatform",
+                    "http://schema.org/MobileWebPlatform"
+                  ]
+                },
+                "result": {
+                  "@type": "Reservation",
+                  "name": "The Mini rental reservation"
+                }
+              },
+              {
+                "@type": "ReserveAction",
+                "name": "Book The Original frozen drink machine rental",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-original",
+                  "actionPlatform": [
+                    "http://schema.org/DesktopWebPlatform",
+                    "http://schema.org/MobileWebPlatform"
+                  ]
+                },
+                "result": {
+                  "@type": "Reservation",
+                  "name": "The Original rental reservation"
+                }
+              },
+              {
+                "@type": "ReserveAction",
+                "name": "Book The Deluxe frozen drink machine rental",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-deluxe",
+                  "actionPlatform": [
+                    "http://schema.org/DesktopWebPlatform",
+                    "http://schema.org/MobileWebPlatform"
+                  ]
+                },
+                "result": {
+                  "@type": "Reservation",
+                  "name": "The Deluxe rental reservation"
+                }
+              }
+            ],
             "makesOffer": {
               "@type": "OfferCatalog",
               "name": "Bayou Sips rental options",
@@ -70,6 +121,8 @@
                   "name": "The Mini",
                   "price": "175",
                   "priceCurrency": "USD",
+                  "url": "https://cal.com/bayou.sips1/bayou-sips-the-mini",
+                  "availability": "https://schema.org/InStock",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Mini frozen drink machine rental",
@@ -81,6 +134,8 @@
                   "name": "The Original",
                   "price": "250",
                   "priceCurrency": "USD",
+                  "url": "https://cal.com/bayou.sips1/bayou-sips-the-original",
+                  "availability": "https://schema.org/InStock",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Original frozen drink machine rental",
@@ -92,6 +147,8 @@
                   "name": "The Deluxe",
                   "price": "400",
                   "priceCurrency": "USD",
+                  "url": "https://cal.com/bayou.sips1/bayou-sips-the-deluxe",
+                  "availability": "https://schema.org/InStock",
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Deluxe frozen drink machine rental",
@@ -336,7 +393,7 @@
               <li>50 (9oz) Plastic Cups</li>
             </ul>
             <p class="package-fineprint">Up to ~50 servings &middot; Indoor or covered outdoor use</p>
-            <button class="button button-card" type="button" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-mini" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $175</button>
+            <a class="button button-card" href="https://cal.com/bayou.sips1/bayou-sips-the-mini" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-mini" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $175</a>
           </article>
 
           <article class="package-card original featured" data-package-card="The Original">
@@ -354,7 +411,7 @@
               <li>White Tent for All-Day Outdoor Use</li>
             </ul>
             <p class="package-fineprint">Up to ~100 servings &middot; Outdoor-ready with tent</p>
-            <button class="button button-card button-primary" type="button" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-original" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $250</button>
+            <a class="button button-card button-primary" href="https://cal.com/bayou.sips1/bayou-sips-the-original" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-original" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $250</a>
           </article>
 
           <article class="package-card deluxe" data-package-card="The Deluxe">
@@ -371,7 +428,7 @@
               <li>White Tent for All-Day Outdoor Use</li>
             </ul>
             <p class="package-fineprint">Up to ~200 servings &middot; Best for weddings &amp; large events</p>
-            <button class="button button-card" type="button" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-deluxe" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $400</button>
+            <a class="button button-card" href="https://cal.com/bayou.sips1/bayou-sips-the-deluxe" data-cal-namespace="bayou-sips" data-cal-link="bayou.sips1/bayou-sips-the-deluxe" data-cal-config='{"layout":"month_view"}'>Book &amp; Pay $400</a>
           </article>
         </div>
 
@@ -514,6 +571,31 @@
             share your flavor and event details, and pay the full rental to confirm. You&rsquo;ll
             get a confirmation email right away &mdash; no deposits, no back-and-forth.
           </p>
+
+          <div class="booking-facts" aria-label="What to expect when you book">
+            <div class="booking-facts-col">
+              <h3 class="booking-facts-heading">What you&rsquo;ll need at booking</h3>
+              <ul>
+                <li>Your event date and start time</li>
+                <li>Event type (wedding, birthday, corporate, etc.)</li>
+                <li>Approximate guest count</li>
+                <li>Flavor picks from the menu (1, 2, or 4 depending on package)</li>
+                <li>Event address for delivery and setup</li>
+                <li>A working phone number for day-of coordination</li>
+              </ul>
+            </div>
+            <div class="booking-facts-col">
+              <h3 class="booking-facts-heading">What happens next</h3>
+              <ul>
+                <li>Payment confirms your date instantly through Stripe</li>
+                <li>Confirmation email lands within minutes</li>
+                <li>We follow up by email to lock flavors and delivery timing</li>
+                <li>Bayou Sips delivers, sets up the cart and machine, and goes</li>
+                <li>Guests pour their own drinks for the duration of the event</li>
+              </ul>
+            </div>
+          </div>
+
           <p class="booking-secondary">
             Questions before you book?
             <a class="booking-fb-link" href="https://www.facebook.com/profile.php?id=61572368766729" target="_blank" rel="noreferrer">Message us on Facebook &rarr;</a>
@@ -521,27 +603,33 @@
         </div>
 
         <div class="booking-pay">
-          <button class="button booking-cta cta-mini" type="button"
-                  data-cal-namespace="bayou-sips"
-                  data-cal-link="bayou.sips1/bayou-sips-the-mini"
-                  data-cal-config='{"layout":"month_view"}'>
+          <a class="button booking-cta cta-mini"
+             href="https://cal.com/bayou.sips1/bayou-sips-the-mini"
+             data-cal-namespace="bayou-sips"
+             data-cal-link="bayou.sips1/bayou-sips-the-mini"
+             data-cal-config='{"layout":"month_view"}'
+             aria-label="Book and pay $175 for The Mini frozen drink machine rental">
             <span class="booking-cta-name">The Mini</span>
             <span class="booking-cta-price">Book &amp; Pay $175</span>
-          </button>
-          <button class="button booking-cta cta-original" type="button"
-                  data-cal-namespace="bayou-sips"
-                  data-cal-link="bayou.sips1/bayou-sips-the-original"
-                  data-cal-config='{"layout":"month_view"}'>
+          </a>
+          <a class="button booking-cta cta-original"
+             href="https://cal.com/bayou.sips1/bayou-sips-the-original"
+             data-cal-namespace="bayou-sips"
+             data-cal-link="bayou.sips1/bayou-sips-the-original"
+             data-cal-config='{"layout":"month_view"}'
+             aria-label="Book and pay $250 for The Original frozen drink machine rental">
             <span class="booking-cta-name">The Original</span>
             <span class="booking-cta-price">Book &amp; Pay $250</span>
-          </button>
-          <button class="button booking-cta cta-deluxe" type="button"
-                  data-cal-namespace="bayou-sips"
-                  data-cal-link="bayou.sips1/bayou-sips-the-deluxe"
-                  data-cal-config='{"layout":"month_view"}'>
+          </a>
+          <a class="button booking-cta cta-deluxe"
+             href="https://cal.com/bayou.sips1/bayou-sips-the-deluxe"
+             data-cal-namespace="bayou-sips"
+             data-cal-link="bayou.sips1/bayou-sips-the-deluxe"
+             data-cal-config='{"layout":"month_view"}'
+             aria-label="Book and pay $400 for The Deluxe frozen drink machine rental">
             <span class="booking-cta-name">The Deluxe</span>
             <span class="booking-cta-price">Book &amp; Pay $400</span>
-          </button>
+          </a>
         </div>
       </section>
 

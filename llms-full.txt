@@ -25,6 +25,17 @@ Popular combos are Strawberry + Pina Colada, Mango + Margarita, Peach + Hurrican
 ## Booking Flow
 The website has Book & Pay buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date, share their phone number, event address, event type, guest count, flavor choices, and any notes, then pay the full rental amount upfront through Stripe to confirm. A confirmation email is sent automatically. There are no deposits.
 
+## Direct Booking URLs
+The three rental options each have a dedicated Cal.com event-type page that can be linked or shared directly:
+- The Mini ($175): https://cal.com/bayou.sips1/bayou-sips-the-mini
+- The Original ($250): https://cal.com/bayou.sips1/bayou-sips-the-original
+- The Deluxe ($400): https://cal.com/bayou.sips1/bayou-sips-the-deluxe
+
+All three event types use the same Cal.com username (bayou.sips1), the same Stripe-backed full-payment-upfront flow, and the same instant email confirmation.
+
+## What Customers Provide at Booking
+At checkout the customer provides their event date and start time, event type (wedding, birthday, shower, graduation, corporate event, cookout, etc.), approximate guest count, flavor picks from the menu (1 for The Mini, 2 for The Original, 4 for The Deluxe), event address for delivery and setup, and a working phone number for day-of coordination.
+
 ## Important Unknowns
 The website does not list a phone number, business address, specific service area, delivery fees, cancellation terms, weather policy, or booking minimums. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
 

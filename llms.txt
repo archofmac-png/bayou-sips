@@ -32,8 +32,27 @@
 ## How Booking Works
 1. Pick a package: The Mini, The Original, or The Deluxe.
 2. Choose your flavors from the 23-item flavor menu.
-3. Click Book & Pay on the Bayou Sips website. The booking calendar opens, you pick an available date, share your event details, and pay the full rental amount upfront. Confirmation arrives by email immediately.
+3. Click Book & Pay on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, share your event details, and pay the full rental amount upfront through Stripe. Confirmation arrives by email immediately.
 4. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
+
+## Direct Booking Links
+- The Mini ($175): https://cal.com/bayou.sips1/bayou-sips-the-mini
+- The Original ($250): https://cal.com/bayou.sips1/bayou-sips-the-original
+- The Deluxe ($400): https://cal.com/bayou.sips1/bayou-sips-the-deluxe
+
+## What You Need at Booking
+- Event date and start time.
+- Event type (wedding, birthday, shower, graduation, corporate, cookout, etc.).
+- Approximate guest count.
+- Flavor picks from the menu (1 flavor for The Mini, 2 for The Original, 4 for The Deluxe).
+- Event address for delivery and setup.
+- Phone number for day-of coordination.
+
+## What Happens After Payment
+- Stripe processes the full rental amount and confirms the date instantly.
+- A confirmation email is sent within minutes.
+- Bayou Sips follows up by email to lock flavors and delivery timing.
+- On the event day, Bayou Sips delivers, sets up the cart and machine (and tent for The Original or The Deluxe), and leaves the pouring to guests.
 
 ## Frequently Asked Questions
 - Pricing: Three flat rentals at $175 (Mini), $250 (Original), and $400 (Deluxe).
