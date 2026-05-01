@@ -61,4 +61,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://bayousips.com/sitemap.xml

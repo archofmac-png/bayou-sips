@@ -1,6 +1,8 @@
 # Bayou Sips
 > Bayou Sips rents self-serve frozen drink machines for celebrations and events.
 
+The official website is https://bayousips.com.
+
 ## Business Summary
 Bayou Sips offers frozen drink machine rentals for event hosts who want a self-serve drink station. The website lets visitors compare three rentals, review flavor choices, and book an event date directly through the booking calendar with full payment upfront.
 
@@ -14,7 +16,7 @@ The Deluxe costs $400 and includes one self-serve cart, one double spout frozen 
 ## Flavor Menu
 Fruity Favorites are Banana, Blue Raspberry, Cherry Bomb, Green Apple, Mango, Orange, Peach, Strawberry, Strawberry Banana, and Watermelon.
 
-Tropical Escapes are Blue Hawaiian, Coombay Smash, Mai Tai, Pina Colada, Rum Runner, and Tropical Knockout.
+Tropical Escapes are Blue Hawaiian, Goombay Smash, Mai Tai, Pina Colada, Rum Runner, and Tropical Knockout.
 
 Cocktail Classics are Feeling No Pain, Frose, Hurricane, Liquid Mary, Margarita, and Sangria.
 
@@ -23,7 +25,7 @@ Summer Refreshers include Summertime Lemonade.
 Popular combos are Strawberry + Pina Colada, Mango + Margarita, Peach + Hurricane, and Blue Raspberry + Watermelon.
 
 ## Booking Flow
-The website has Book & Pay buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date, share their phone number, event address, event type, guest count, flavor choices, and any notes, then pay the full rental amount upfront through Stripe to confirm. A confirmation email is sent automatically. There are no deposits.
+The website has Book & Pay buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date, share their phone number, event address, event type, guest count, flavor choices, and any notes, then pay the full rental amount upfront through Stripe to confirm. A confirmation email is sent instantly. A $50 portion of every booking is held as a non-refundable deposit to secure the date; it is part of the rental amount, not an additional charge.
 
 ## Direct Booking URLs
 The three rental options each have a dedicated Cal.com event-type page that can be linked or shared directly:
@@ -40,7 +42,7 @@ At checkout the customer provides their event date and start time, event type (w
 A $50 portion of every booking is held as a non-refundable deposit to secure the event date. Customers are encouraged to book at least 7 days in advance. For shorter-notice events, customers can message Bayou Sips through the Facebook page and Bayou Sips will accommodate when calendar availability and logistics allow.
 
 ## Important Unknowns
-The website does not list a phone number, business address, specific service area, delivery fees, full cancellation terms beyond the $50 non-refundable deposit, or weather policy. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
+The website lists two co-owner phone numbers (Paula Meyers and Baileigh Vinson) but does not list a single business phone, a street address, a specific service area, delivery fees, full cancellation terms beyond the $50 non-refundable deposit, or a weather policy. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
 
 ## Owners and Contact
 Bayou Sips is co-owned and run by Paula Meyers and Baileigh Vinson.

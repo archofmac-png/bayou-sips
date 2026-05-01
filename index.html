@@ -7,18 +7,23 @@
     <meta name="description" content="Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, and backyard parties. Three packages from $175 to $400 with carts, cups, tents, and a full flavor menu.">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <meta name="theme-color" content="#2d4a35">
+    <meta name="author" content="Paula Meyers and Baileigh Vinson">
+    <link rel="canonical" href="https://bayousips.com/">
     <meta property="og:title" content="Bayou Sips - Frozen Drink Machine Rentals">
     <meta property="og:description" content="Self-serve frozen drink machine rentals with three event-ready packages and a full flavor menu. Sip. Chill. Enjoy.">
-    <meta property="og:image" content="assets/drinks1.jpg">
+    <meta property="og:image" content="https://bayousips.com/assets/drinks1.jpg">
+    <meta property="og:url" content="https://bayousips.com/">
+    <meta property="og:site_name" content="Bayou Sips">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Bayou Sips - Frozen Drink Machine Rentals">
     <meta name="twitter:description" content="Compare frozen drink rental packages, view the flavor menu, and request a booking. Three packages from $175.">
-    <meta name="twitter:image" content="assets/drinks1.jpg">
+    <meta name="twitter:image" content="https://bayousips.com/assets/drinks1.jpg">
     <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
     <link rel="apple-touch-icon" href="assets/logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="assets/sipspackages.jpg" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Allura&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json">
@@ -27,57 +32,73 @@
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "#bayou-sips-organization",
+            "@id": "https://bayousips.com/#bayou-sips-organization",
             "name": "Bayou Sips",
             "slogan": "Sip. Chill. Enjoy.",
-            "url": "https://archofmac-png.github.io/bayou-sips/",
-            "logo": "assets/logo.jpg",
+            "url": "https://bayousips.com/",
+            "logo": "https://bayousips.com/assets/logo.jpg",
             "image": [
-              "assets/logo.jpg",
-              "assets/drinks1.jpg",
-              "assets/owners.jpg",
-              "assets/sipspackages.jpg",
-              "assets/sipsmenu.jpg"
+              "https://bayousips.com/assets/logo.jpg",
+              "https://bayousips.com/assets/drinks1.jpg",
+              "https://bayousips.com/assets/owners.jpg",
+              "https://bayousips.com/assets/sipspackages.jpg",
+              "https://bayousips.com/assets/sipsmenu.jpg"
             ],
+            "email": "bayou.sips1@gmail.com",
             "sameAs": [
               "https://www.facebook.com/profile.php?id=61572368766729"
             ],
             "founder": [
               {
                 "@type": "Person",
-                "@id": "#paula-meyers",
+                "@id": "https://bayousips.com/#paula-meyers",
                 "name": "Paula Meyers",
                 "jobTitle": "Co-Owner",
                 "telephone": "+1-225-268-6647",
-                "worksFor": { "@id": "#bayou-sips-organization" }
+                "worksFor": { "@id": "https://bayousips.com/#bayou-sips-organization" },
+                "knowsAbout": ["Frozen drink machine rentals", "Event hospitality", "Louisiana hospitality"]
               },
               {
                 "@type": "Person",
-                "@id": "#baileigh-vinson",
+                "@id": "https://bayousips.com/#baileigh-vinson",
                 "name": "Baileigh Vinson",
                 "jobTitle": "Co-Owner",
                 "telephone": "+1-228-334-9854",
-                "worksFor": { "@id": "#bayou-sips-organization" }
+                "worksFor": { "@id": "https://bayousips.com/#bayou-sips-organization" },
+                "knowsAbout": ["Frozen drink machine rentals", "Event hospitality", "Louisiana hospitality"]
               }
             ],
             "description": "Bayou Sips is a Southern-rooted self-serve frozen drink machine rental service for events, parties, and celebrations."
           },
           {
             "@type": "LocalBusiness",
-            "@id": "#bayou-sips-local-business",
+            "@id": "https://bayousips.com/#bayou-sips-local-business",
             "name": "Bayou Sips",
-            "url": "https://archofmac-png.github.io/bayou-sips/",
+            "url": "https://bayousips.com/",
+            "slogan": "Sip. Chill. Enjoy.",
             "description": "Bayou Sips provides self-serve frozen drink machine rental packages for events, including carts, plastic cups, flavor choices, and white tent options on selected packages.",
             "image": [
-              "assets/logo.jpg",
-              "assets/drinks1.jpg",
-              "assets/owners.jpg",
-              "assets/sipspackages.jpg",
-              "assets/sipsmenu.jpg"
+              "https://bayousips.com/assets/logo.jpg",
+              "https://bayousips.com/assets/drinks1.jpg",
+              "https://bayousips.com/assets/owners.jpg",
+              "https://bayousips.com/assets/sipspackages.jpg",
+              "https://bayousips.com/assets/sipsmenu.jpg"
             ],
             "priceRange": "$175-$400",
             "email": "bayou.sips1@gmail.com",
             "telephone": "+1-225-268-6647",
+            "founder": [
+              { "@id": "https://bayousips.com/#paula-meyers" },
+              { "@id": "https://bayousips.com/#baileigh-vinson" }
+            ],
+            "knowsAbout": [
+              "Frozen drink machine rentals",
+              "Wedding beverage services",
+              "Self-serve daiquiri cart rentals",
+              "Event bar rentals",
+              "Birthday party drink stations",
+              "Corporate event beverage catering"
+            ],
             "contactPoint": [
               {
                 "@type": "ContactPoint",
@@ -107,8 +128,8 @@
                   "@type": "EntryPoint",
                   "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-mini",
                   "actionPlatform": [
-                    "http://schema.org/DesktopWebPlatform",
-                    "http://schema.org/MobileWebPlatform"
+                    "https://schema.org/DesktopWebPlatform",
+                    "https://schema.org/MobileWebPlatform"
                   ]
                 },
                 "result": {
@@ -123,8 +144,8 @@
                   "@type": "EntryPoint",
                   "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-original",
                   "actionPlatform": [
-                    "http://schema.org/DesktopWebPlatform",
-                    "http://schema.org/MobileWebPlatform"
+                    "https://schema.org/DesktopWebPlatform",
+                    "https://schema.org/MobileWebPlatform"
                   ]
                 },
                 "result": {
@@ -139,8 +160,8 @@
                   "@type": "EntryPoint",
                   "urlTemplate": "https://cal.com/bayou.sips1/bayou-sips-the-deluxe",
                   "actionPlatform": [
-                    "http://schema.org/DesktopWebPlatform",
-                    "http://schema.org/MobileWebPlatform"
+                    "https://schema.org/DesktopWebPlatform",
+                    "https://schema.org/MobileWebPlatform"
                   ]
                 },
                 "result": {
@@ -155,41 +176,80 @@
               "itemListElement": [
                 {
                   "@type": "Offer",
+                  "@id": "https://bayousips.com/#offer-mini",
                   "name": "The Mini",
+                  "category": "Frozen drink machine rental",
                   "price": "175",
                   "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "175",
+                    "priceCurrency": "USD",
+                    "unitText": "per event rental",
+                    "valueAddedTaxIncluded": false
+                  },
                   "url": "https://cal.com/bayou.sips1/bayou-sips-the-mini",
+                  "image": "https://bayousips.com/assets/sipspackages.jpg",
                   "availability": "https://schema.org/InStock",
+                  "seller": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Mini frozen drink machine rental",
-                    "description": "Includes one self-serve cart, one single spout frozen drink machine, one flavor choice, and 50 9-ounce plastic cups."
+                    "serviceType": "Frozen drink machine rental",
+                    "provider": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
+                    "description": "Includes one self-serve cart, one single spout frozen drink machine, one flavor choice, and 50 9-ounce plastic cups. Best for intimate parties of up to about 50 guests."
                   }
                 },
                 {
                   "@type": "Offer",
+                  "@id": "https://bayousips.com/#offer-original",
                   "name": "The Original",
+                  "category": "Frozen drink machine rental",
                   "price": "250",
                   "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "250",
+                    "priceCurrency": "USD",
+                    "unitText": "per event rental",
+                    "valueAddedTaxIncluded": false
+                  },
                   "url": "https://cal.com/bayou.sips1/bayou-sips-the-original",
+                  "image": "https://bayousips.com/assets/sipspackages.jpg",
                   "availability": "https://schema.org/InStock",
+                  "seller": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Original frozen drink machine rental",
-                    "description": "Includes one self-serve cart, one double spout frozen drink machine, two flavor choices, 100 9-ounce plastic cups, and a white tent for all-day outdoor use."
+                    "serviceType": "Frozen drink machine rental",
+                    "provider": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
+                    "description": "Includes one self-serve cart, one double spout frozen drink machine, two flavor choices, 100 9-ounce plastic cups, and a white tent for all-day outdoor use. Most popular package, sized for around 100 guests."
                   }
                 },
                 {
                   "@type": "Offer",
+                  "@id": "https://bayousips.com/#offer-deluxe",
                   "name": "The Deluxe",
+                  "category": "Frozen drink machine rental",
                   "price": "400",
                   "priceCurrency": "USD",
+                  "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": "400",
+                    "priceCurrency": "USD",
+                    "unitText": "per event rental",
+                    "valueAddedTaxIncluded": false
+                  },
                   "url": "https://cal.com/bayou.sips1/bayou-sips-the-deluxe",
+                  "image": "https://bayousips.com/assets/sipspackages.jpg",
                   "availability": "https://schema.org/InStock",
+                  "seller": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
                   "itemOffered": {
                     "@type": "Service",
                     "name": "The Deluxe frozen drink machine rental",
-                    "description": "Includes one self-serve cart, one double spout frozen drink machine, four flavor choices, 200 9-ounce plastic cups, and a white tent for all-day outdoor use."
+                    "serviceType": "Frozen drink machine rental",
+                    "provider": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
+                    "description": "Includes one self-serve cart, one double spout frozen drink machine, four flavor choices, 200 9-ounce plastic cups, and a white tent for all-day outdoor use. Best for weddings and large events of around 200 guests."
                   }
                 }
               ]
@@ -197,13 +257,69 @@
           },
           {
             "@type": "WebSite",
-            "@id": "#bayou-sips-website",
+            "@id": "https://bayousips.com/#bayou-sips-website",
+            "url": "https://bayousips.com/",
             "name": "Bayou Sips",
-            "publisher": { "@id": "#bayou-sips-organization" },
-            "about": { "@id": "#bayou-sips-local-business" }
+            "inLanguage": "en-US",
+            "publisher": { "@id": "https://bayousips.com/#bayou-sips-organization" },
+            "about": { "@id": "https://bayousips.com/#bayou-sips-local-business" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://bayousips.com/#webpage",
+            "url": "https://bayousips.com/",
+            "name": "Bayou Sips - Frozen Drink Machine Rentals",
+            "isPartOf": { "@id": "https://bayousips.com/#bayou-sips-website" },
+            "about": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
+            "primaryImageOfPage": "https://bayousips.com/assets/sipspackages.jpg",
+            "inLanguage": "en-US",
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".hero-lede", ".package-card", ".faq-item", ".booking-fineprint"]
+            }
+          },
+          {
+            "@type": "HowTo",
+            "@id": "https://bayousips.com/#how-to-book",
+            "name": "How to book a Bayou Sips frozen drink machine rental",
+            "description": "Four-step process to reserve a Bayou Sips self-serve frozen drink machine for your event.",
+            "totalTime": "PT5M",
+            "estimatedCost": {
+              "@type": "MonetaryAmount",
+              "currency": "USD",
+              "value": "175"
+            },
+            "step": [
+              {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Pick your package",
+                "text": "Compare The Mini ($175), The Original ($250), and The Deluxe ($400) and pick the package that matches your guest count and flavor needs."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Choose your flavors",
+                "text": "Pick from the 23-flavor menu: 1 flavor for The Mini, 2 for The Original, or 4 for The Deluxe."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Book and pay",
+                "text": "Click Book & Pay, pick an available date on the Cal.com calendar, share event details, and pay the full rental amount upfront through Stripe. A $50 portion is held as a non-refundable deposit. Confirmation email lands instantly."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "We deliver and set up",
+                "text": "Bayou Sips arrives, sets up the cart, machine, and tent (on The Original and Deluxe), and your guests pour their own drinks for the duration of the event."
+              }
+            ]
           },
           {
             "@type": "FAQPage",
+            "@id": "https://bayousips.com/#faq",
+            "about": { "@id": "https://bayousips.com/#bayou-sips-local-business" },
             "mainEntity": [
               {
                 "@type": "Question",
@@ -250,7 +366,7 @@
                 "name": "How do I book a Bayou Sips rental?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Choose your package on the Bayou Sips website and click Book & Pay. Pick your event date on the booking calendar, share your flavor and event details, and pay the full rental amount to lock in your reservation. Confirmation arrives by email immediately."
+                  "text": "Choose your package on the Bayou Sips website and click Book & Pay. Pick your event date on the booking calendar, share your flavor and event details, and pay the full rental amount upfront through Stripe to lock in your reservation. Confirmation arrives by email instantly."
                 }
               },
               {
@@ -382,7 +498,7 @@
         <div class="hero-showcase" aria-label="Bayou Sips photo and package flyer">
           <div class="hero-stack">
             <figure class="poster-card package-poster">
-              <img src="assets/sipspackages.jpg" width="1024" height="1536" alt="Bayou Sips rental flyer with Mini, Original, and Deluxe pricing">
+              <img src="assets/sipspackages.jpg" width="1024" height="1536" fetchpriority="high" decoding="async" alt="Bayou Sips rental flyer with Mini, Original, and Deluxe pricing">
             </figure>
             <figure class="polaroid hero-polaroid">
               <img src="assets/drinks1.jpg" width="768" height="1024" alt="Two strawberry frozen drinks in branded Bayou Sips cups">
@@ -622,7 +738,7 @@
           <p>
             Choose a package below to open the booking calendar. Pick an available date,
             share your flavor and event details, and pay the full rental to lock it in.
-            Confirmation lands in your inbox right away.
+            Confirmation lands in your inbox instantly.
           </p>
 
           <div class="booking-facts" aria-label="What to expect when you book">
@@ -641,7 +757,7 @@
               <h3 class="booking-facts-heading">What happens next</h3>
               <ul>
                 <li>Payment confirms your date instantly through Stripe</li>
-                <li>Confirmation email lands within minutes</li>
+                <li>Confirmation email lands instantly</li>
                 <li>We follow up by email to lock flavors and delivery timing</li>
                 <li>Bayou Sips delivers, sets up the cart and machine, and goes</li>
                 <li>Guests pour their own drinks for the duration of the event</li>
@@ -719,7 +835,7 @@
           </details>
           <details class="faq-item">
             <summary>How do I book?</summary>
-            <p>Choose a package above and click Book &amp; Pay. The calendar opens, you pick an available date, share your flavor and event details, and pay the full rental amount. You&rsquo;ll get a confirmation email immediately.</p>
+            <p>Choose a package above and click Book &amp; Pay. The calendar opens, you pick an available date, share your flavor and event details, and pay the full rental amount. You&rsquo;ll get a confirmation email instantly.</p>
           </details>
           <details class="faq-item">
             <summary>Is there a deposit?</summary>
@@ -805,12 +921,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; <span id="year"></span> Bayou Sips. All rights reserved.</span>
-        <span>Crafted with Southern hospitality.</span>
+        <span>&copy; 2026 Bayou Sips. All rights reserved.</span>
+        <span>Last updated April 2026 &middot; Crafted with Southern hospitality.</span>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script type="text/javascript">
       (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
       Cal("init", "bayou-sips", { origin: "https://app.cal.com" });

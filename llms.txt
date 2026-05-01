@@ -1,8 +1,10 @@
 # Bayou Sips
 > Bayou Sips rents self-serve frozen drink machines for weddings, birthdays, showers, graduations, corporate events, and backyard cookouts. Three flat-rate packages from $175 to $400 with delivery and setup included. Sip. Chill. Enjoy.
 
+The official website is https://bayousips.com.
+
 ## Core Page
-- [Bayou Sips](/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and book your event date with payment through the booking calendar.
+- [Bayou Sips](https://bayousips.com/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and book your event date with payment through the booking calendar.
 
 ## Rental Packages
 - The Mini ($175): Includes 1 self-serve cart, 1 single-spout frozen drink machine, 1 flavor of your choice, and 50 (9oz) plastic cups. Best for intimate parties and a single signature flavor. Indoor or covered outdoor use.
@@ -32,7 +34,7 @@
 ## How Booking Works
 1. Pick a package: The Mini, The Original, or The Deluxe.
 2. Choose your flavors from the 23-item flavor menu.
-3. Click Book & Pay on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, share your event details, and pay the full rental amount upfront through Stripe. Confirmation arrives by email immediately.
+3. Click Book & Pay on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, share your event details, and pay the full rental amount upfront through Stripe. Confirmation arrives by email instantly.
 4. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
 
 ## Direct Booking Links
@@ -50,7 +52,7 @@
 
 ## What Happens After Payment
 - Stripe processes the full rental amount and confirms the date instantly.
-- A confirmation email is sent within minutes.
+- A confirmation email is sent instantly.
 - Bayou Sips follows up by email to lock flavors and delivery timing.
 - On the event day, Bayou Sips delivers, sets up the cart and machine (and tent for The Original or The Deluxe), and leaves the pouring to guests.
 
