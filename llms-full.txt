@@ -32,11 +32,11 @@ The website has Book & Pay buttons for each rental. Clicking one opens the Bayou
 
 ## Direct Booking URLs
 The three rental options each have a dedicated Cal.com event-type page that can be linked or shared directly:
-- The Mini ($175): https://cal.com/bayou.sips1/bayou-sips-the-mini
-- The Original ($250): https://cal.com/bayou.sips1/bayou-sips-the-original
-- The Deluxe ($400): https://cal.com/bayou.sips1/bayou-sips-the-deluxe
+- The Mini ($175): https://cal.com/paula-meyers-ezwktk/the-mini-package-175
+- The Original ($250): https://cal.com/paula-meyers-ezwktk/the-original-package-250
+- The Deluxe ($400): https://cal.com/paula-meyers-ezwktk/the-deluxe-package-400
 
-All three event types use the same Cal.com username (bayou.sips1), the same Stripe-backed full-payment-upfront flow, and the same instant email confirmation.
+All three event types use the same Cal.com username (paula-meyers-ezwktk), the same Stripe-backed full-payment-upfront flow, and the same instant email confirmation.
 
 ## What Customers Provide at Booking
 At checkout the customer provides their event date and start time, event type (wedding, birthday, shower, graduation, corporate event, cookout, etc.), approximate guest count, flavor picks from the menu (1 for The Mini, 2 for The Original, 4 for The Deluxe), event address for delivery and setup, and a working phone number for day-of coordination.
@@ -51,7 +51,7 @@ The website confirms Bayou Sips is based in Ponchatoula, Louisiana and lists two
 Bayou Sips is co-owned and run by Paula Meyers and Baileigh Vinson.
 - Paula Meyers, Co-Owner: (225) 268-6647
 - Baileigh Vinson, Co-Owner: (228) 334-9854
-- Email: bayou.sips1@gmail.com
+- Email: bayousips01@gmail.com
 - Facebook page: https://www.facebook.com/profile.php?id=61572368766729
 
 Customers can call either owner directly for short-notice bookings, day-of coordination, or general questions.
