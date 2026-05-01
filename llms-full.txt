@@ -36,8 +36,11 @@ All three event types use the same Cal.com username (bayou.sips1), the same Stri
 ## What Customers Provide at Booking
 At checkout the customer provides their event date and start time, event type (wedding, birthday, shower, graduation, corporate event, cookout, etc.), approximate guest count, flavor picks from the menu (1 for The Mini, 2 for The Original, 4 for The Deluxe), event address for delivery and setup, and a working phone number for day-of coordination.
 
+## Booking Policy
+A $50 portion of every booking is held as a non-refundable deposit to secure the event date. Customers are encouraged to book at least 7 days in advance. For shorter-notice events, customers can message Bayou Sips through the Facebook page and Bayou Sips will accommodate when calendar availability and logistics allow.
+
 ## Important Unknowns
-The website does not list a phone number, business address, specific service area, delivery fees, cancellation terms, weather policy, or booking minimums. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
+The website does not list a phone number, business address, specific service area, delivery fees, full cancellation terms beyond the $50 non-refundable deposit, or weather policy. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
 
 ## Contact
 Facebook page: https://www.facebook.com/profile.php?id=61572368766729

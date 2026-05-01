@@ -1357,6 +1357,50 @@ p { margin: 0 0 1rem; }
   box-shadow: 0 16px 36px rgba(125, 42, 34, 0.46);
 }
 
+.booking-fineprint {
+  list-style: none;
+  margin: 0.45rem 0 0;
+  padding: 0.95rem 1.1rem;
+  display: grid;
+  gap: 0.55rem;
+  background: rgba(255, 253, 246, 0.05);
+  border-top: 1px solid rgba(201, 165, 92, 0.28);
+  border-radius: 10px;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: rgba(255, 253, 246, 0.82);
+}
+
+.booking-fineprint li {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.booking-fineprint li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--gold-300);
+  font-weight: 700;
+}
+
+.booking-fineprint strong {
+  color: var(--gold-300);
+  font-weight: 700;
+}
+
+.booking-fineprint a {
+  color: var(--gold-300);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.booking-fineprint a:hover {
+  color: var(--paper-50);
+}
+
 .booking-secondary {
   margin-top: 1.4rem;
   font-size: 0.95rem;
