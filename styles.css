@@ -1725,6 +1725,34 @@ p { margin: 0 0 1rem; }
 
 .footer-col a:hover { color: var(--gold-300); }
 
+.footer-contacts .footer-owner {
+  display: grid;
+  gap: 0.1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(201, 165, 92, 0.18);
+}
+
+.footer-owner-name {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-300);
+}
+
+.footer-col a.footer-owner-phone,
+.footer-col a.footer-owner-phone:link,
+.footer-col a.footer-owner-phone:visited {
+  font-family: var(--serif);
+  font-size: 1.06rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: rgba(255, 253, 246, 0.92);
+}
+
+.footer-col a.footer-owner-phone:hover { color: var(--gold-300); }
+
 .footer-bottom {
   display: flex;
   flex-wrap: wrap;
