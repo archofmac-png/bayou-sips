@@ -40,8 +40,9 @@ The official website is https://bayousips.com.
 ## How Booking Works
 1. Pick a package: The Mini, The Original, or The Deluxe.
 2. Choose your flavors from the 23-item flavor menu.
-3. Click Reserve on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, and share your event details. Reserving is free with no payment at this step. Confirmation arrives by email instantly.
-4. Paula emails a secure Stripe payment link within 24 hours for the full rental amount, due in 7 days. Card, Apple Pay, and Google Pay are accepted.
+3. Click Reserve on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, and share your event details. Reserving is free with no payment at this step.
+4. Paula reviews each reservation. Confirmation arrives by email once she accepts the booking. Response hours are Monday through Friday, 10:00 AM to 8:00 PM Central Time.
+5. After confirming the booking, Paula emails a secure Stripe payment link for the full rental amount, due in 7 days. Card, Apple Pay, and Google Pay are accepted.
 5. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
 
 ## Direct Booking Links
@@ -58,17 +59,17 @@ The official website is https://bayousips.com.
 - Phone number for day-of coordination.
 
 ## What Happens After Booking
-- The reservation is confirmed the moment the calendar form is submitted. No payment is taken at this step.
-- A confirmation email is sent instantly.
-- Paula emails a secure Stripe payment link within 24 hours for the full rental amount. The link accepts card, Apple Pay, and Google Pay. Payment is due within 7 days of the link being sent.
+- When the calendar form is submitted, the reservation enters a pending state. No payment is taken at this step.
+- Paula reviews each reservation. Confirmation is sent by email once she accepts the booking, typically within booking-response hours (Mon-Fri 10am-8pm CT).
+- After the booking is confirmed, Paula emails a secure Stripe payment link for the full rental amount. The link accepts card, Apple Pay, and Google Pay. Payment is due within 7 days of the link being sent.
 - Bayou Sips follows up by email to lock flavors and delivery timing.
 - On the event day, Bayou Sips delivers, sets up the cart and machine (and tent for The Original or The Deluxe), and leaves the pouring to guests.
 
 ## Booking Policy
 - Reserving is free. There is no deposit or payment required to lock in a date on the calendar.
-- Paula emails a Stripe payment link within 24 hours; the full rental amount is due within 7 days.
+- Each reservation is reviewed by Paula and confirmed by email. After confirmation, Paula emails a Stripe payment link; the full rental amount is due within 7 days.
 - Bookings are preferred at least 7 days in advance. For shorter notice, customers can message the Bayou Sips Facebook page and Bayou Sips will accommodate when possible.
-- If the booking confirmation email does not arrive within a minute, customers should email bayousips01@gmail.com rather than rebooking.
+- If a customer has questions while waiting for booking confirmation, they should email bayousips01@gmail.com rather than rebooking.
 
 ## Frequently Asked Questions
 - Pricing: Three flat rentals at $175 (Mini), $250 (Original), and $400 (Deluxe).

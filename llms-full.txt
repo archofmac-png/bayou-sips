@@ -28,7 +28,7 @@ Summer Refreshers include Summertime Lemonade.
 Popular combos are Strawberry + Pina Colada, Mango + Margarita, Peach + Hurricane, and Blue Raspberry + Watermelon.
 
 ## Booking Flow
-The website has Reserve buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date and share their phone number, event address, event type, guest count, flavor choices, and any notes. Reserving is free with no payment taken at this step. A confirmation email is sent instantly. Within 24 hours of the reservation, owner Paula Meyers emails the customer a secure Stripe payment link for the full rental amount. Payment is due within 7 days of the link being sent. Card, Apple Pay, and Google Pay are accepted on the Stripe-hosted payment page. There is no deposit at booking.
+The website has Reserve buttons for each rental. Clicking one opens the Bayou Sips booking calendar (powered by Cal.com), where customers pick an available event date and share their phone number, event address, event type, guest count, flavor choices, and any notes. Reserving is free with no payment taken at this step. When the form is submitted, the reservation enters a pending state. Owner Paula Meyers reviews each reservation and sends a confirmation email once she accepts the booking, typically within booking-response hours (Mon-Fri 10am-8pm CT). After the booking is confirmed, Paula emails the customer a secure Stripe payment link for the full rental amount. Payment is due within 7 days of the link being sent. Card, Apple Pay, and Google Pay are accepted on the Stripe-hosted payment page. There is no deposit at booking.
 
 ## Direct Booking URLs
 The three rental options each have a dedicated Cal.com event-type page that can be linked or shared directly:
@@ -36,13 +36,13 @@ The three rental options each have a dedicated Cal.com event-type page that can 
 - The Original ($250): https://cal.com/paula-meyers-ezwktk/the-original-package-250
 - The Deluxe ($400): https://cal.com/paula-meyers-ezwktk/the-deluxe-package-400
 
-All three event types use the same Cal.com username (paula-meyers-ezwktk), are free to reserve (no payment at booking), and produce an instant email confirmation. Payment is collected after the reservation via a Stripe payment link emailed by the owner.
+All three event types use the same Cal.com username (paula-meyers-ezwktk), are free to reserve (no payment at booking), and are confirmed by email once owner Paula Meyers reviews and accepts the booking. Payment is collected after the reservation via a Stripe payment link emailed by the owner.
 
 ## What Customers Provide at Booking
 At checkout the customer provides their event date and start time, event type (wedding, birthday, shower, graduation, corporate event, cookout, etc.), approximate guest count, flavor picks from the menu (1 for The Mini, 2 for The Original, 4 for The Deluxe), event address for delivery and setup, and a working phone number for day-of coordination.
 
 ## Booking Policy
-Reserving an event date is free; there is no deposit at booking. The full rental amount is invoiced via a Stripe payment link emailed within 24 hours of the reservation, due within 7 days. Customers are encouraged to book at least 7 days in advance. For shorter-notice events, customers can message Bayou Sips through the Facebook page and Bayou Sips will accommodate when calendar availability and logistics allow. If the booking confirmation email does not arrive within a minute of submitting the reservation, customers should email bayousips01@gmail.com rather than rebooking.
+Reserving an event date is free; there is no deposit at booking. Each reservation is reviewed by Paula and confirmed by email once she accepts the booking, typically within booking-response hours (Mon-Fri 10am-8pm CT). After confirmation, the full rental amount is invoiced via a Stripe payment link, due within 7 days. Customers are encouraged to book at least 7 days in advance. For shorter-notice events, customers can message Bayou Sips through the Facebook page and Bayou Sips will accommodate when calendar availability and logistics allow. If a customer has questions while waiting for booking confirmation, they should email bayousips01@gmail.com rather than rebooking.
 
 ## Important Unknowns
 The website confirms Bayou Sips is based in Ponchatoula, Louisiana and lists two co-owner phone numbers (Paula Meyers at 225-268-6647 and Baileigh Vinson at 228-334-9854), but does not list a street address, a specific service area or travel radius, delivery fees, full cancellation terms, or a weather policy. Those details are confirmed by email after a booking is placed, or visitors can ask through the Bayou Sips Facebook page before booking.
