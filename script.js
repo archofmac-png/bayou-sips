@@ -11,11 +11,14 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   });
 });
 
-// Mobile fallback for Cal.com embed: the embed modal has a known layout
-// bug on narrow viewports where the sticky "Back / Pay to book" bar floats
-// mid-form and covers the phone field. Below 768px we strip the embed
-// attributes so clicks open the Cal.com hosted page in a new tab, which
-// lays out correctly at any width. Desktop keeps the in-page modal.
+// Mobile fallback for Cal.com embed: historically the embed modal had a
+// sticky-button-bar layout bug on narrow viewports that overlapped form
+// fields. The bug appears resolved as of May 2026, but we keep this
+// fallback as a safety net and because the full-page Cal.com booker
+// gives mobile users more room to work. Below 768px we strip the embed
+// attributes so clicks open the hosted page in a new tab. Desktop keeps
+// the in-page modal. Payment is no longer collected at booking, so the
+// Stripe-redirect failure mode this once protected against is moot.
 if (window.matchMedia("(max-width: 767px)").matches) {
   document.querySelectorAll("a[data-cal-link]").forEach((a) => {
     a.removeAttribute("data-cal-namespace");

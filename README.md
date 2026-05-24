@@ -22,7 +22,7 @@ python -m http.server 5173
 
 - `index.html` — the page
 - `styles.css` — all styles (no preprocessor)
-- `script.js` — booking-form interactivity and copy-to-clipboard
+- `script.js` — smooth-scroll for in-page anchors and Cal.com embed bootstrap (with a mobile new-tab fallback)
 - `assets/` — flyer images (menu and packages)
 - `robots.txt` — crawlers allowed, including AI search agents
 - `sitemap.xml` — section anchors

@@ -779,11 +779,6 @@ p { margin: 0 0 1rem; }
   border-color: rgba(201, 165, 92, 0.55);
 }
 
-.package-card.is-selected {
-  outline: 3px solid var(--gold-500);
-  outline-offset: 2px;
-}
-
 .package-badge {
   position: absolute;
   top: -14px;
@@ -1232,62 +1227,6 @@ p { margin: 0 0 1rem; }
   line-height: 1.65;
 }
 
-.selected-summary {
-  display: grid;
-  gap: 0.45rem;
-  margin-top: 2rem;
-  padding: 1.4rem 1.5rem 1.6rem;
-  background: rgba(255, 253, 246, 0.05);
-  border: 1px solid rgba(201, 165, 92, 0.32);
-  border-radius: 14px;
-}
-
-.selected-label {
-  color: var(--gold-300);
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-
-.selected-summary strong {
-  color: var(--paper-50);
-  font-family: var(--display);
-  font-size: 1.6rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-}
-
-.selected-summary em {
-  color: var(--gold-300);
-  font-family: var(--display);
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  line-height: 1;
-}
-
-.selected-summary ul {
-  display: grid;
-  gap: 0.4rem;
-  margin: 0.6rem 0 0;
-  padding-left: 1.2rem;
-  color: rgba(255, 253, 246, 0.82);
-  font-size: 0.98rem;
-}
-
-.booking-form {
-  display: grid;
-  gap: 1rem;
-  align-content: start;
-  padding: 1.6rem;
-  background: rgba(255, 253, 246, 0.04);
-  border: 1px solid rgba(201, 165, 92, 0.3);
-  border-radius: 14px;
-}
-
 .booking-pay {
   display: grid;
   gap: 1rem;
@@ -1463,68 +1402,6 @@ p { margin: 0 0 1rem; }
 }
 
 .booking-fb-link:hover { color: var(--paper-50); }
-
-.form-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.booking-form label {
-  display: grid;
-  gap: 0.45rem;
-  color: var(--gold-300);
-  font-family: var(--sans);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.booking-form input,
-.booking-form select,
-.booking-form textarea {
-  width: 100%;
-  padding: 0.85rem 1rem;
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 1.02rem;
-  background: var(--paper-50);
-  border: 1px solid rgba(201, 165, 92, 0.55);
-  border-radius: 10px;
-  outline: 0;
-  transition: border-color 160ms ease, box-shadow 160ms ease;
-}
-
-.booking-form input,
-.booking-form select { min-height: 3rem; }
-
-.booking-form textarea { resize: vertical; }
-
-.booking-form input:focus,
-.booking-form select:focus,
-.booking-form textarea:focus {
-  border-color: var(--gold-500);
-  box-shadow: 0 0 0 3px rgba(201, 165, 92, 0.32);
-}
-
-.booking-form ::placeholder { color: var(--muted); }
-
-.form-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.85rem;
-  margin-top: 0.4rem;
-}
-
-.form-status {
-  min-height: 1.4rem;
-  margin: 0;
-  color: var(--gold-300);
-  font-family: var(--sans);
-  font-size: 0.92rem;
-  font-weight: 600;
-}
 
 /* ---------- FAQ ---------- */
 .faq-section { padding-bottom: 4rem; }
@@ -1873,8 +1750,7 @@ p { margin: 0 0 1rem; }
 
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.25rem 2rem; }
 
-  .flavor-groups,
-  .form-row { grid-template-columns: 1fr; }
+  .flavor-groups { grid-template-columns: 1fr; }
 
   .section { padding: 4.5rem 1.25rem; }
 
