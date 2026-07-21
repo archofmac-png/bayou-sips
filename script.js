@@ -11,6 +11,20 @@ document.querySelectorAll('a[href^="#"]').forEach((a) => {
   });
 });
 
+// On narrow viewports the primary nav overflows and scrolls horizontally;
+// fade the clipped edge so off-canvas items are discoverable.
+const primaryNav = document.querySelector(".primary-nav");
+if (primaryNav) {
+  const updateNavFade = () => {
+    const maxScroll = primaryNav.scrollWidth - primaryNav.clientWidth;
+    primaryNav.classList.toggle("nav-fade-start", primaryNav.scrollLeft > 6);
+    primaryNav.classList.toggle("nav-fade-end", maxScroll > 6 && primaryNav.scrollLeft < maxScroll - 6);
+  };
+  primaryNav.addEventListener("scroll", updateNavFade, { passive: true });
+  window.addEventListener("resize", updateNavFade);
+  updateNavFade();
+}
+
 // Mobile fallback for Cal.com embed: historically the embed modal had a
 // sticky-button-bar layout bug on narrow viewports that overlapped form
 // fields. The bug appears resolved as of May 2026, but we keep this
