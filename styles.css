@@ -1798,7 +1798,11 @@ p { margin: 0 0 1rem; }
   .booking-cta-name { font-size: 1.05rem; }
   .booking-cta-price { font-size: 0.88rem; }
 
-  .primary-nav { gap: 0.55rem; font-size: 0.8rem; }
+  /* Wrap instead of scrolling off-canvas: at ~346px of content the last
+     link ("Book") sat past the right edge of a 320px viewport (audit
+     offscreen-element @320). flex-wrap only engages when the single row
+     genuinely can't fit, so wider viewports render exactly as before. */
+  .primary-nav { gap: 0.3rem 0.55rem; font-size: 0.8rem; flex-wrap: wrap; }
   .primary-nav a[href="#how-it-works"] { font-size: 0; letter-spacing: 0; }
   .primary-nav a[href="#how-it-works"]::before {
     content: "How";
