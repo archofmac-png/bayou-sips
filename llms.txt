@@ -43,7 +43,7 @@ The official website is https://bayousips.com.
 3. Click Reserve on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, and share your event details. Reserving is free with no payment at this step.
 4. Paula reviews each reservation. Confirmation arrives by email once she accepts the booking. Response hours are Monday through Friday, 10:00 AM to 8:00 PM Central Time.
 5. When Paula confirms the booking, a secure Stripe invoice for the full rental amount is emailed automatically, due 24 hours before the event. Card, Apple Pay, and Google Pay are accepted.
-5. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
+6. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
 
 ## Direct Booking Links
 - The Mini ($175): https://cal.com/paula-meyers-ezwktk/the-mini-package-175
