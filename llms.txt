@@ -10,7 +10,7 @@ The official website is https://bayousips.com.
 - Service area is confirmed by email or Facebook message before booking.
 
 ## Core Page
-- [Bayou Sips](https://bayousips.com/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and reserve your event date through the booking calendar at no charge. After reserving, Paula sends a secure Stripe payment link by email within 24 hours, due in 7 days.
+- [Bayou Sips](https://bayousips.com/): The full Bayou Sips website. Compare rental packages, browse the flavor menu, view event types we cater, learn how booking works, read the FAQ, and reserve your event date through the booking calendar at no charge. Once Paula accepts the booking, a secure Stripe invoice is emailed automatically, due 24 hours before the event.
 
 ## Rental Packages
 - The Mini ($175): Includes 1 self-serve cart, 1 single-spout frozen drink machine, 1 flavor of your choice, and 50 (9oz) plastic cups. Best for intimate parties and a single signature flavor. Indoor or covered outdoor use.
@@ -42,7 +42,7 @@ The official website is https://bayousips.com.
 2. Choose your flavors from the 23-item flavor menu.
 3. Click Reserve on the Bayou Sips website. The booking calendar (powered by Cal.com) opens, you pick an available date, and share your event details. Reserving is free with no payment at this step.
 4. Paula reviews each reservation. Confirmation arrives by email once she accepts the booking. Response hours are Monday through Friday, 10:00 AM to 8:00 PM Central Time.
-5. After confirming the booking, Paula emails a secure Stripe payment link for the full rental amount, due in 7 days. Card, Apple Pay, and Google Pay are accepted.
+5. When Paula confirms the booking, a secure Stripe invoice for the full rental amount is emailed automatically, due 24 hours before the event. Card, Apple Pay, and Google Pay are accepted.
 5. Bayou Sips delivers and sets up the cart, machine, cups, and tent. Guests pour their own drinks.
 
 ## Direct Booking Links
@@ -61,13 +61,13 @@ The official website is https://bayousips.com.
 ## What Happens After Booking
 - When the calendar form is submitted, the reservation enters a pending state. No payment is taken at this step.
 - Paula reviews each reservation. Confirmation is sent by email once she accepts the booking, typically within booking-response hours (Mon-Fri 10am-8pm CT).
-- After the booking is confirmed, Paula emails a secure Stripe payment link for the full rental amount. The link accepts card, Apple Pay, and Google Pay. Payment is due within 7 days of the link being sent.
+- After the booking is confirmed, a secure Stripe invoice for the full rental amount is emailed automatically. The Stripe-hosted invoice page accepts card, Apple Pay, and Google Pay. Payment is due 24 hours before the event.
 - Bayou Sips follows up by email to lock flavors and delivery timing.
 - On the event day, Bayou Sips delivers, sets up the cart and machine (and tent for The Original or The Deluxe), and leaves the pouring to guests.
 
 ## Booking Policy
 - Reserving is free. There is no deposit or payment required to lock in a date on the calendar.
-- Each reservation is reviewed by Paula and confirmed by email. After confirmation, Paula emails a Stripe payment link; the full rental amount is due within 7 days.
+- Each reservation is reviewed by Paula and confirmed by email. Confirmation triggers an automatic Stripe invoice; the full rental amount is due 24 hours before the event.
 - Bookings are preferred at least 7 days in advance. For shorter notice, customers can message the Bayou Sips Facebook page and Bayou Sips will accommodate when possible.
 - If a customer has questions while waiting for booking confirmation, they should email bayousips01@gmail.com rather than rebooking.
 
@@ -76,7 +76,7 @@ The official website is https://bayousips.com.
 - Alcohol: All flavors are alcohol-free by default. You may add your own spirits to create signature cocktails.
 - Flavor count: 1 flavor with The Mini, 2 with The Original, 4 with The Deluxe.
 - Tent: Included with The Original and The Deluxe. Not included with The Mini.
-- Booking: Choose a package, click Reserve, pick your date on the calendar, and share event details. Reserving is free. Paula sends a Stripe payment link by email within 24 hours, due in 7 days.
+- Booking: Choose a package, click Reserve, pick your date on the calendar, and share event details. Reserving is free. Once Paula accepts, a Stripe invoice arrives by email, due 24 hours before the event.
 - Lead time: 7 days notice preferred. Short-notice requests welcome via Facebook message.
 - Service area, cancellation, weather backup, and delivery details: confirmed by email after booking.
 
